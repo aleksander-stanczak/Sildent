@@ -13,6 +13,8 @@ import java.util.ArrayList;
 
 public class Sildent {
 
+	// TEST
+	
 	public static ArrayList<Refreshable> windows = new ArrayList<Refreshable>();
 	public static WorkRegistryWindow workRegistry = null;
 
