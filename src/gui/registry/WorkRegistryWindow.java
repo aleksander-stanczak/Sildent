@@ -15,7 +15,6 @@ import debug.DebugDisplay;
 import entities.Doctor;
 import entities.Lab;
 import entities.Work;
-import gui.AddWorkWindow;
 import gui.editors.WorkWindow;
 
 import java.sql.Date;

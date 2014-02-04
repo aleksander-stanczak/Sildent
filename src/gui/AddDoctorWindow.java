@@ -14,6 +14,8 @@ package gui;
 import entities.SubTask;
 import entities.Lab;
 import entities.Doctor;
+import gui.editors.WorkWindow;
+
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.logging.Level;
@@ -288,7 +290,7 @@ public class AddDoctorWindow extends javax.swing.JFrame {
         } catch (SQLException ex) {
             System.out.println("SQL exception: "+ex);
 
-            Logger.getLogger(AddWorkWindow.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(WorkWindow.class.getName()).log(Level.SEVERE, null, ex);
         }
 
     }

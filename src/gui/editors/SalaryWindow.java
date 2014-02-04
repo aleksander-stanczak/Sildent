@@ -14,7 +14,6 @@ package gui.editors;
 import entities.Arrear;
 import entities.Doctor;
 import entities.Worker;
-import gui.AddWorkWindow;
 
 import java.sql.SQLException;
 import java.util.ArrayList;
@@ -183,7 +182,7 @@ public class SalaryWindow extends javax.swing.JFrame {
     private void add(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_add
         // TODO add your handling code here:
         System.out.println(table.getColumnCount());
-        new AddWorkWindow().setVisible(true);
+        new WorkWindow(true).setVisible(true);
     }//GEN-LAST:event_add
 
     private void close(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_close
@@ -249,7 +248,7 @@ public class SalaryWindow extends javax.swing.JFrame {
         } catch (SQLException ex) {
             System.out.println("SQL exception: "+ex);
 
-            Logger.getLogger(AddWorkWindow.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(WorkWindow.class.getName()).log(Level.SEVERE, null, ex);
         }
 
     }

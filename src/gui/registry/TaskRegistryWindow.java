@@ -13,7 +13,7 @@ package gui.registry;
 
 import entities.WorkTask;
 import entities.Worker;
-import gui.AddWorkWindow;
+import gui.editors.WorkWindow;
 
 import java.sql.SQLException;
 import java.util.ArrayList;
@@ -286,7 +286,7 @@ public class TaskRegistryWindow extends javax.swing.JFrame {
         } catch (SQLException ex) {
             System.out.println("SQL exception: "+ex);
 
-            Logger.getLogger(AddWorkWindow.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(WorkWindow.class.getName()).log(Level.SEVERE, null, ex);
         }
 
     }

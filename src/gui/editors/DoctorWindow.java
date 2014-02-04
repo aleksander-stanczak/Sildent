@@ -14,7 +14,6 @@ package gui.editors;
 import debug.DebugDisplay;
 import entities.Lab;
 import entities.Doctor;
-import gui.AddWorkWindow;
 
 import java.sql.SQLException;
 import java.util.ArrayList;
